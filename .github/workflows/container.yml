@@ -19,3 +19,4 @@ jobs:
         run: |
           npm -v
           cat /etc/os-release
+          ps -ef
