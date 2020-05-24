@@ -3,6 +3,7 @@ on: push
 
 jobs:
   node-docker:
+    runs-on: ubuntu-latest
     name: Start my app
     services:
       app:
